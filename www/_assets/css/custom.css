@@ -1,0 +1,179 @@
+
+.jqm-demos .jqm-header h2 img {
+    height:auto !important`;
+    width: 112px !important;
+}
+
+body, html, * {
+
+font-family:'Roboto', sans-serif !important;
+}
+
+.jqm-demos .jqm-navmenu-panel {
+background:url(../../img/panel-lining.png) repeat-y scroll 106px 0 #000 !important;
+max-width: 250px !important;
+}
+
+
+.ui-listview.ui-group-theme-b li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-color: #333 !important;
+}
+
+/*.jqm-demos .jqm-navmenu-panel, .jqm-navmenu-panel ui-panel  {
+background:url(../../img/panel-lining.png) repeat-y scroll 106px 0 transparent !important;
+}*/
+
+.jqm-demos .jqm-header {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-color: #eee;
+    border-top: 4px solid #3eb249;
+    min-height: 40px !important;
+}
+
+h1#prodName {
+color: #fff;
+font-family: "Roboto",sans-serif;
+font-size: 2em;
+font-weight: 700;
+margin-bottom: 2px;
+text-align: right;
+text-shadow: 1px 1px 4px #333;
+width: 100%;
+}
+div#lightbox-container-image img#lightbox-image {
+}
+#lightbox-image-details-currentNumber, .lb-number{
+display: none !important;
+}
+.description {
+font-family:'Roboto', sans-serif;
+font-weight:400;
+color:#fff;
+font-size:2.5em;
+font-size:120%;
+width:100%;
+text-align:right;
+float:left;
+line-height:1.5em;
+text-shadow:1px 1px 4px #333;
+}
+.lb-data {
+font-family:'Roboto', sans-serif;
+font-weight:400;
+color: #ccc;
+float: right;
+padding: 0 4px;
+}
+span.lb-caption div#priceBox {
+float: right;
+margin-top: 10px;
+}
+.lb-data .lb-details {
+bottom: 125px;
+font-size: 120%;
+line-height: 1.1em;
+color:#fff;
+padding: 10px;
+position: relative !important;
+text-align: left;
+width: auto !important;
+text-shadow:1px 1px 4px #333;
+}
+.lb-data .lb-details {
+line-height: 1.1em;
+text-align: right;
+width: 100%;
+}
+div#priceBox p.item_price {
+font-family:'Roboto', sans-serif;
+font-weight:100;
+font-size:2em !important;
+text-shadow:1px 1px 4px #333;
+color:#fff;
+font-weight:100;
+}
+div.item-prod {
+background-color: #fff;
+border-radius: 0 !important;
+display: inline-block;
+float: left;
+line-height: 0;
+margin: 0 -1rem 1rem 1.2rem;
+padding: 1px;
+transition: background-color 0.1s ease-out 0s;
+width: 250px;
+}
+
+.prodName {
+    color: #333;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    margin-top: 1.2em;
+    width: 100%;
+}
+
+.example-image {
+border-radius: 0 !important;
+width: 15rem !important;
+}
+
+.ui-content .ui-listview, .ui-panel-inner > .ui-listview {
+    margin: -1em;
+    padding-right: 10px;
+}
+
+.lb-outerContainer {
+background-color: white;
+border-radius: 0px !important;
+}
+
+
+/*.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited*/ 
+/*
+.ui-listview, .ui-listview > li {
+    list-style: outside none none;
+    margin-right: 20px;
+    padding: 0;
+    background-color: transparent !important;
+    border-color: #888;
+    color: #fff;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+
+
+.ui-nodisc-icon.ui-btn:after, .ui-nodisc-icon .ui-btn:after {
+     background-color: transparent !important;
+}
+*/
+
+li.current {
+    list-style-type: none;
+    padding-left: 20px;
+    z-index: 2000;
+}
+
+/*
+.jqm-demos .jqm-header {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-color: #eee;
+    border-top: 4px solid #3eb249;
+}
+
+div.ui-panel-inner ul.jqm-list.ui-alt-icon.ui-nodisc-icon.ui-listview li.ui-collapsible.ui-collapsible-themed-content.ui-li-static.ui-body-inherit div.ui-collapsible-content.ui-body-inherit ul.ui-listview li a.ui-btn.ui-btn-icon-right, body#ui-page-top.ui-mobile-viewport.ui-overlay-a div.jqm-demos.ui-page.ui-page-theme-a.ui-page-active div.jqm-navmenu-panel.ui-panel.ui-panel-position-left.ui-panel-display-overlay.ui-body-a.ui-panel-animate.ui-panel-open div.ui-panel-inner ul.jqm-list.ui-alt-icon.ui-nodisc-icon.ui-listview li.ui-first-child a.ui-btn.ui-btn-icon-right.ui-icon-home {
+	 background-color: transparent !important;
+}
+
+
+.ui-nodisc-icon.ui-btn:after, .ui-nodisc-icon .ui-btn:after {
+    background-color: transparent !important;
+}
+
+*/
+
+h2.current {
+    margin-bottom: 30px;
+    padding-left: 20%;
+}
+/***** jqm ****/
